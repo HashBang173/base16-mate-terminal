@@ -1,5 +1,5 @@
 # base16-mate-terminal
-Base16 color scheme for Mate Terminal
+[Base16 color scheme] (https://github.com/chriskempson/base16) for Mate Terminal
 
 ## Installation
 Download:
