@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 Atelier Lakeside - Mate Terminal color scheme install script
-# Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/)
+# Base16 OceanicNext - Mate Terminal color scheme install script
+# https://github.com/voronianski/oceanic-next-color-scheme
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Atelier Lakeside Light"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-atelierlakeside-light"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 OceanicNext Dark"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-oceanicnext-dark"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal/profiles
 
@@ -35,10 +35,10 @@ glist_append() {
 glist_append /org/mate/terminal/global/profile-list "$PROFILE_SLUG"
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#ebf8ff:#d22d72:#568c3b:#8a8a0f:#257fad:#6b6bb8:#2d8f6f:#7ea2b4:#5a7b8c:#d22d72:#568c3b:#8a8a0f:#257fad:#6b6bb8:#2d8f6f:#161b1d'"
-dset background-color "'#ebf8ff'"
-dset foreground-color "'#516d7b'"
-dset bold-color "'#516d7b'"
+dset palette "'#1B2B34:#EC5f67:#99C794:#FAC863:#6699CC:#C594C5:#5FB3B3:#C0C5CE:#65737E:#EC5f67:#99C794:#FAC863:#6699CC:#C594C5:#5FB3B3:#D8DEE9'"
+dset background-color "'#1B2B34'"
+dset foreground-color "'#C0C5CE'"
+dset bold-color "'#C0C5CE'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"

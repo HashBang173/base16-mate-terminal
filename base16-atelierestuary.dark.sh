@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Base16 Atelier Lakeside - Mate Terminal color scheme install script
-# Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/)
+# Base16 Atelier Estuary - Mate Terminal color scheme install script
+# Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary)
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Atelier Lakeside Light"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-atelierlakeside-light"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Atelier Estuary Dark"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-atelierestuary-dark"
 [[ -z "$DCONFTOOL" ]] && DCONFTOOL=dconf
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/org/mate/terminal/profiles
 
@@ -35,10 +35,10 @@ glist_append() {
 glist_append /org/mate/terminal/global/profile-list "$PROFILE_SLUG"
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#ebf8ff:#d22d72:#568c3b:#8a8a0f:#257fad:#6b6bb8:#2d8f6f:#7ea2b4:#5a7b8c:#d22d72:#568c3b:#8a8a0f:#257fad:#6b6bb8:#2d8f6f:#161b1d'"
-dset background-color "'#ebf8ff'"
-dset foreground-color "'#516d7b'"
-dset bold-color "'#516d7b'"
+dset palette "'#22221b:#ba6236:#7d9726:#a5980d:#36a166:#5f9182:#5b9d48:#929181:#6c6b5a:#ba6236:#7d9726:#a5980d:#36a166:#5f9182:#5b9d48:#f4f3ec'"
+dset background-color "'#22221b'"
+dset foreground-color "'#929181'"
+dset bold-color "'#929181'"
 dset bold-color-same-as-fg "true"
 dset use-theme-colors "false"
 dset use-theme-background "false"
